@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "home": {
+      "type": "string"
+    },
+    "menu1": {
+      "type": "string"
+    },
+    "menu2": {
+      "type": "string"
+    },
+    "menu3": {
+      "type": "string"
+    },
+    "menu4": {
+      "type": "string"
+    },
+    "menu5": {
+      "type": "string"
+    },
+    "menu6": {
+      "type": "string"
+    }
+  }
+}

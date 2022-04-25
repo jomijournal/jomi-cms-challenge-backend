@@ -1,56 +1,57 @@
-# 🚀 Welcome to JOMI Code Challenge
+# 🚀 Getting started with Strapi
 
-## Instructions
+Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-1. Fork this repo and the frontend repo
-2. Run the this cms server
-3. Implement the items on Tasks section
-4. Submit a pull-request to both frontend and backend
+### `develop`
 
-## Deadline
-6 hours
+Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
-## Running the backend cms server
+```
+npm run develop
+# or
+yarn develop
+```
 
-1. clone repo
-2. `yarn install`
-3. Copy environment variables to .env file = `cp env.example .env`
-4. Start the server `yarn develop`
-5. Go to `http://localhost:1337`, create an admin user and Proceed to tasks
+### `start`
 
-## Running the Nextjs server
+Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
-1. `git clone https://github.com/jomijournal/jomi-challenge-frontend.git`
-2. `yarn install`
-3. Copy environment variables to .env file = `cp env.example .env`
-4. Start the nextjs server using `yarn dev`
-5. Go to http://localhost:3000
+```
+npm run start
+# or
+yarn start
+```
 
-## Tasks
+### `build`
 
-### Backend
+Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
-1. Creating content for front-end. the CMS server has pre-defined types and components: `HomePage`, etc. Your first task is to build the content for the homepage so that the frontend can consume it and will be able to render the content. It should consist of the following:
+```
+npm run build
+# or
+yarn build
+```
 
-- 2 Two-Column Blocks
-- 1 HeaderBlock
-- CarouselBlock 
+## ⚙️ Deployment
 
-### Front-end
+Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
 
-1. In the front-end server, Fill-in the needed fields in the query on `homepage.graphql`. Run `yarn gen` to update the generated file (`homepage.generated.tsx`).
-2. Complete components for `TwoColumnBlock` , `HeaderBlock`, `CarouselBlock` so that the front-end can properly render them. . You may use `HomePageSectionsComponent` to select the components based on their typename.
-3. Note: Just search for all the //TODO comments and complete them.
-4. After completing the the components create a pull-request of your fork, to the this repo (https://github.com/jomijournal/jomi-cms-challenge-backend) and send us a message upon completion.
+## 📚 Learn more
 
+- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
+- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
+- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
+- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
+- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
 
-## Mockup of the final output
-### Header Block
-![image](https://user-images.githubusercontent.com/10172560/164224358-9de2789a-0c3e-4a5d-aa56-68129194e104.png)
+Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
 
-### Two Column Block
-![image](https://user-images.githubusercontent.com/10172560/164224267-b39ebb80-e0c6-42cd-8e39-6d296ca52e07.png)
-![image](https://user-images.githubusercontent.com/10172560/164224300-ff257823-b477-4a78-ace3-acf8fcee6276.png)
+## ✨ Community
 
-### Carousel Block
-![image](https://user-images.githubusercontent.com/10172560/164224408-ef0703ef-d774-4ed2-8b56-4225614c455f.png)
+- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
+- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+
+---
+
+<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
