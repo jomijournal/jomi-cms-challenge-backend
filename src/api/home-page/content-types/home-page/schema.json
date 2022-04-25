@@ -15,8 +15,8 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "common.two-column-block",
         "common.header",
+        "common.two-column-block",
         "common.carousel"
       ]
     }

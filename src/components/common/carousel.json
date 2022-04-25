@@ -1,8 +1,9 @@
 {
   "collectionName": "components_common_carousels",
   "info": {
-    "displayName": "Carousel",
-    "icon": "angle-right"
+    "displayName": "ComponentCommonCarousel",
+    "icon": "angle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
