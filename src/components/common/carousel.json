@@ -2,7 +2,8 @@
   "collectionName": "components_common_carousels",
   "info": {
     "displayName": "Carousel",
-    "icon": "angle-right"
+    "icon": "angle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,9 @@
       "type": "component",
       "repeatable": true,
       "component": "common.two-column-block"
+    },
+    "HeaderText": {
+      "type": "string"
     }
   }
 }

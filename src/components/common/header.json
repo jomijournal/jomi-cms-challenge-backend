@@ -2,7 +2,8 @@
   "collectionName": "components_common_headers",
   "info": {
     "displayName": "Header",
-    "icon": "yin-yang"
+    "icon": "yin-yang",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,9 @@
       "type": "string"
     },
     "ButtonLink": {
+      "type": "string"
+    },
+    "Text_2": {
       "type": "string"
     }
   }
