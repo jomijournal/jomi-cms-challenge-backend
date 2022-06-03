@@ -1,10 +1,8 @@
-const crypto = require("crypto")
-
 module.exports = ({ env }) => ({
   auth: {
-    secret: crypto.randomBytes(16).toString('base64'),
+    secret: env('JWT_SECRET'),
   },
   apiToken: {
-    salt: crypto.randomBytes(16).toString('base64'),
+    salt: env('APP_KEYS'),
   },
 });
