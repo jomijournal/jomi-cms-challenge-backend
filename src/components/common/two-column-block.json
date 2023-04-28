@@ -2,7 +2,8 @@
   "collectionName": "components_common_two_column_blocks",
   "info": {
     "displayName": "Two-Column Block",
-    "icon": "address-card"
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -26,14 +27,15 @@
       ]
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
